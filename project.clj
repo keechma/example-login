@@ -1,5 +1,5 @@
 (defproject keechma-login "0.1.0-SNAPSHOT"
-  :description "Example application with login and logout"
+  :description "Example application with the login workflow."
   :url "http://github.com/keechma/keechma-login"
   :license {:name "MIT"}
 
