@@ -14,6 +14,8 @@ will have it's own app state and run completely independently from the other.
 
 This is possible because there are no shared globals in Keechma.
 
+Read the [annotated source](http://keechma.com/annotated/login.html).
+
 ## Setup
 
 Make sure you have [Leiningen](http://leiningen.org/) installed.
