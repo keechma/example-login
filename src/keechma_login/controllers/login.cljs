@@ -12,7 +12,7 @@
 (defn login
   "Logs in the user."
   [main-app app-db-atom _]
-  (let [success-cb (partial start-app main-app app-db-atom)]
+  (let [success-cb (partial start-app! main-app app-db-atom)]
     (.authorize js/Trello #js {:type "popup"
                                :name "Keechma Trello example"
                                :success success-cb})))
